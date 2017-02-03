@@ -1,4 +1,4 @@
-function GetSqlServerKey {
+function Get-SQLserverKey {
     ## function to retrieve the license key of a SQL 2008 Server.
     param ($targets = ".")
     $hklm = 2147483650
